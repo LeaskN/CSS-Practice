@@ -1,0 +1,125 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square1 {
+    display: inline-block;
+    background-color: #0074d9;
+    height: 100px;
+    width: 100px;
+    padding: 1px;
+    animation: skewRight 6s infinite; /*skewRight is, more or less, a variable name correlating to the @keyframes skewRight*/
+    animation-direction: alternate;
+    opacity: .7;
+}
+  
+@keyframes skewRight {
+    0% {
+        transform: skewX(0deg); /* start */
+    }
+    100% {
+        transform: skewX(-20deg); /* finish */
+    }
+}
+
+.square2 {
+    height: 100px;
+    width: 100px;
+    background-color: #3d9970;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 1px;
+    animation: shimmy 6s infinite; /* shimmy is, more or less, a variable name correlating to the @keyframes shimmy */
+    animation-direction: alternate;
+    opacity: .7;
+}
+
+@keyframes shimmy {
+    0% {
+      transform: translate(0px, 0px); /*starting point*/
+    }
+    100% {
+      transform: translate(110px, 110px); /*finishing point*/
+    }
+}
+
+.square3 {
+    height: 100px;
+    width: 100px;
+    background-color: #fcff33;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 1px;
+    animation: rotate 6s infinite; /* rotate is, more or less, a variable name correlating to the @keyframes rotate */
+    animation-direction: alternate;
+    opacity: .5;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(90deg); /*starting point*/
+    }
+    100% {
+      transform: rotate(180deg); /*finishing point*/
+    }
+}
+
+.square4 {
+    height: 100px;
+    width: 100px;
+    background-color: #e2e2e2;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 1px;
+    animation: scale 6s infinite; /* scale is, more or less, a variable name correlating to the @keyframes scale */
+    animation-direction: alternate;
+    opacity: .3;
+}
+
+@keyframes scale {
+    0% {
+      transform: scale(1); /*starting point*/
+    }
+    100% {
+      transform: scale(4); /*finishing point*/
+    }
+}
+
+.square5 {
+    height: 100px;
+    width: 100px;
+    background-color: #c43131;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 1px;
+    animation: skewLeft 6s infinite; /* skewLeft is, more or less, a variable name correlating to the @keyframes skewLeft */
+    animation-direction: alternate;
+    opacity: .3;
+}
+
+@keyframes skewLeft {
+    0% {
+      transform: skew(0deg); /*starting point*/
+    }
+    100% {
+      transform: skew(20deg); /*finishing point*/
+    }
+}
