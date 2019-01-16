@@ -1,1 +1,1 @@
-# This is my CSS practice file!
+# This is my CSS practice repo!
