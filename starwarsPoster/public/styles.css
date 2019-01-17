@@ -15,6 +15,7 @@ body{
   background-color: #1A1A1A;
   height: 800px;
   width: 600px;
+  flex-direction: column;
 }
 .left-triangle{
   width: 0;
