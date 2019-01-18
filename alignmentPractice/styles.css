@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.image {
+    display: flex;
+    flex: 1 1 auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#one{
+    height: 10px;
+    background-color: #F89406;
+}
+#two{
+    height: 200px;
+    background-color: #26A65B;
+}
+#three{
+    height: 400px;
+    background-color: #8E44AD;
+}
+#four{
+    height: 500px;
+    background-color: #E74C3C;
+}
+#five{
+    height: 300px;
+    background-color: rgb(0, 103, 129);
+}
